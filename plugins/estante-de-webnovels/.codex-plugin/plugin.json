@@ -1,0 +1,23 @@
+{
+  "name": "estante-de-webnovels",
+  "version": "0.1.0",
+  "description": "Pesquisa, leitura assistida, analise de escrita e reescrita original baseada em perfis verificaveis de webnovels.",
+  "author": {
+    "name": "Estante de Webnovels"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Estante de Webnovels",
+    "shortDescription": "Leia referencias e transforme sua escrita.",
+    "longDescription": "Pesquisa fontes acessiveis, cria perfis tecnicos auditaveis e reescreve historias originais em portugues brasileiro sem copiar a obra de referencia.",
+    "developerName": "Estante de Webnovels",
+    "category": "Writing",
+    "capabilities": ["Research", "Write", "Local storage"],
+    "defaultPrompt": [
+      "Crie uma cena e sugira ate tres obras da minha estante.",
+      "Analise estes trechos e crie um perfil verificavel.",
+      "Mostre minhas versoes e meu ponto de leitura."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

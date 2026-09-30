@@ -1,0 +1,20 @@
+{
+  "name": "estante-de-webnovels",
+  "interface": {
+    "displayName": "Estante de Webnovels"
+  },
+  "plugins": [
+    {
+      "name": "estante-de-webnovels",
+      "source": {
+        "source": "local",
+        "path": "./plugins/estante-de-webnovels"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    }
+  ]
+}
